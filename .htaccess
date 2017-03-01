@@ -1,0 +1,31 @@
+ErrorDocument 404 /error.php
+Options +FollowSymlinks
+Options -Indexes
+<Files .htaccess>
+deny from all
+</Files>
+<Files ~ "\.log$">
+	Order allow,deny
+	Deny from all
+</Files>
+<ifModule mod_php5.c>
+	php_value zlib.output_compression 16386
+	php_value register_globals off
+	php_value session.use_trans_sid 0
+</ifModule>
+<ifModule mod_rewrite.c>
+RewriteEngine on
+
+
+RewriteRule ^core.php - [L]
+RewriteRule ^assets/ - [L]
+RewriteRule /assets/ - [L]
+RewriteRule ^authorize/ - [L]
+RewriteRule /authorize/ - [L]
+RewriteRule ^(.*)$ core.php [L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(([A-Za-z0-9\-_]+/)*[A-Za-z0-9\-_]+)?$ $1.php
+</ifModule>
