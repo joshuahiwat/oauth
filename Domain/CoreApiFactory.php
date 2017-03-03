@@ -15,7 +15,7 @@ final class CoreApiFactory
     const DATABASE = 'localhost';
     const DATABASENAME = 'nathalie_oauth';
     const DATABASEUSER = 'nathalie_oauth';
-    const DATABASEPASSWORD = 'pcmMnJypo0';
+    const DATABASEPASSWORD = '';
 
     /**
      * @return PDO
