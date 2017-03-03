@@ -16,6 +16,6 @@ class ResourceController
             $server->getResponse()->send();
             die;
         }
-        return json_encode(array('success' => true, 'message' => 'You accessed my APIs!'));
+        return json_encode(['success' => true, 'message' => 'You accessed my APIs!']);
     }
 }

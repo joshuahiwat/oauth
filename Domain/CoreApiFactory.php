@@ -13,9 +13,9 @@ use PDOException;
 final class CoreApiFactory
 {
     const DATABASE = 'localhost';
-    const DATABASENAME = 'oauth';
-    const DATABASEUSER = 'root';
-    const DATABASEPASSWORD = '';
+    const DATABASENAME = 'nathalie_oauth';
+    const DATABASEUSER = 'nathalie_oauth';
+    const DATABASEPASSWORD = 'pcmMnJypo0';
 
     /**
      * @return PDO
