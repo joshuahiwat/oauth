@@ -101,7 +101,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GuestZone.API\OAuth.API.csproj">
+    <ProjectReference Include="..\OAuth.API\OAuth.API.csproj">
       <Project>{25D05660-BB0F-4153-AB9B-F15BCAD6F6D8}</Project>
       <Name>OAuth.API</Name>
     </ProjectReference>
