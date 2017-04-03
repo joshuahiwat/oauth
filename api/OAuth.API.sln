@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuestZone.API", "GuestZone.API\GuestZone.API.csproj", "{25D05660-BB0F-4153-AB9B-F15BCAD6F6D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth.API", "GuestZone.API\OAuth.API.csproj", "{25D05660-BB0F-4153-AB9B-F15BCAD6F6D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuestZone.API.Tests", "GuestZone.API.Tests\GuestZone.API.Tests.csproj", "{82FCD4FE-DF46-4E03-97D1-1B90BC32408A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth.API.Tests", "GuestZone.API.Tests\OAuth.API.Tests.csproj", "{82FCD4FE-DF46-4E03-97D1-1B90BC32408A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

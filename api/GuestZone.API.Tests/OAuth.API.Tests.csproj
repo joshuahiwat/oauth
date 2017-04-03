@@ -101,9 +101,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GuestZone.API\GuestZone.API.csproj">
+    <ProjectReference Include="..\GuestZone.API\OAuth.API.csproj">
       <Project>{25D05660-BB0F-4153-AB9B-F15BCAD6F6D8}</Project>
-      <Name>GuestZone.API</Name>
+      <Name>OAuth.API</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
